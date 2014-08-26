@@ -5,7 +5,6 @@ import org.junit.Assert;
 
 import java.io.File;
 
-import static org.junit.Assert.assertEquals;
 import com.appnomic.owner.SystemEnvProperties;
 /**
  * Created by hemanth on 18/8/14.

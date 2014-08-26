@@ -8,9 +8,9 @@ import java.io.PrintStream;
 
 @LoadPolicy(LoadType.MERGE)
 @Sources({ "file:~/A1Health/appsone-health-script/src/main/config/alert.properties",
-        "classpath:ServerConfig.properties"})
+        "classpath:ServerConfig.properties,"})
 
-public interface MyConfig extends Config {
+public interface MySources extends Config {
 
     @Key("server.http.port")
     int port();

@@ -1,0 +1,10 @@
+<server>
+    <http port="80">
+        <hostname>localhost</hostname>
+    </http>
+    <ssh port="22">
+        <address>localhost</address>
+        <alive interval="90"/>
+        <user>admin</user>
+    </ssh>
+</server>
